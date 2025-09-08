@@ -19,7 +19,7 @@ nxc smb 10.10.10.40 -u "" -p ""
 <img width="1355" height="78" alt="image" src="https://github.com/user-attachments/assets/fdd80c02-c259-4e0d-9128-1afaa00c0709" />
 
 
-### I use --shares to enumereate the shares as the Guest account  :
+### I use --shares to enumerate the shares as the Guest account  :
 ```
 nxc smb 10.10.10.40 -u "Guest" -p "" --shares
 ```
@@ -33,7 +33,7 @@ smbclient //10.10.10.40/Users -N
 ```
 <img width="690" height="178" alt="image" src="https://github.com/user-attachments/assets/b2dbbb4f-20a9-42a9-82cc-1370d02cff97" />
 
-### After allot of file ... i got back to the nmap scan and search on google : "Windows 7 Professional 6.1 exploit smb" .And find that has an remote code execution on the smb name as : EternalBlue Exploit | MS17-010  // And matasplot has an exploit we can use 
+### After a lot of files ... i got back to the nmap scan and search on google : "Windows 7 Professional 6.1 exploit smb" .And find that has an remote code execution on the smb name as : EternalBlue Exploit | MS17-010  // And Metasploit has an exploit we can use 
 
 <img width="1383" height="784" alt="image" src="https://github.com/user-attachments/assets/35a7faba-30d7-4ca0-b6f1-65cc8e18053a" />
 
