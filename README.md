@@ -2,7 +2,7 @@
 
 ### Start with a nmap scan
 ```
-nmap -sVC -p- 10.10.10.95 -oN nmap_scan --min-rate 5000
+nmap -sVC -p- 10.10.10.40 -oN nmap_scan --min-rate 5000
 ```
 > - `-sVC`: Detect service/version /// Run default scripts
 > - `-oN`: Output to file (normal format)
